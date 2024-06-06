@@ -19,4 +19,3 @@ angle = float(input("Enter angle between them"))
 angle_radians = math.radians(angle)
 area = 0.5 * side_1 * side_2 * math.sin(angle_radians)
 print("Area of triangle is", area)
-this is a cool edit
