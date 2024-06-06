@@ -109,6 +109,6 @@ elif answer.lower() == "b" or answer.lower() == "neither":
 
 # end of quiz
 input("That's the end of the quiz! Press enter to see your score")
-print("Your final score was", 100*score/total_questions, "%")
+print("Your final score was", round(100*score/total_questions,1), "%")
 
 
