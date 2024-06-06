@@ -6,6 +6,7 @@ print("The hosts of self and desire are following fast on your tail!")
 print("Traverse the seven valleys and attain reunion with your Beloved before they catch you!")
 print("You fill up your canteen from the crystal springs of divine power and set out.")
 done = False
+valleys = ("Search", "Love", )
 distance_travelled = 0
 thirst = 0
 tiredness = 0

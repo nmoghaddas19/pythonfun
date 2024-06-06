@@ -2,7 +2,7 @@ score = 0
 total_questions = 6
 # question 1
 print("Question 1/", total_questions)
-print("What is the capital city of Argentina?")
+print("What is the capital city of Columbia?")
 print("a. Bogota")
 print("b. Caracas")
 print("c. Quito")
@@ -39,14 +39,14 @@ print("c. Red carnation")
 print("d. White carnation")
 answer = input("Answer:")
 if answer.lower() == "a" or answer.lower() == "red rose":
-    print("No, it was a white carnation!")
-elif answer.lower() == "b" or answer.lower() == "white rose":
-    print("No, it was a white carnation!")
-elif answer.lower() == "c" or answer.lower() == "red carnation":
-    print("No, it was a white carnation")
-elif answer.lower() == "d" or answer.lower() == "white carnation":
     print("Yes, that's right!")
     score = score + 1
+elif answer.lower() == "b" or answer.lower() == "white rose":
+    print("No, it was a red rose!")
+elif answer.lower() == "c" or answer.lower() == "red carnation":
+    print("No, it was a red rose")
+elif answer.lower() == "d" or answer.lower() == "white carnation":
+    print("No, it was a red rose")
 
 # question 4
 input("Press enter to see the next question")
